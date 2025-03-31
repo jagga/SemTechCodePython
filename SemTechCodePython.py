@@ -137,6 +137,7 @@ class LineStreamProc:
         for k in sorted(groups.keys()):
             print("Department " , k , "Sum Population " , sumPop[k].p , ", Max Population  " , maxPop[k].p)
         print(popMini, " is the Minimum Population for cities " , popmin[popMini], " " )
+        return  groups, minPop, maxPop, sumPop
 
 #     # Employubg Stream of lines from input file get Max Population for Each Department
 #     def getMaxPopulationByDept(lines: List[String]): Predef.Map[String, Int] = {
