@@ -172,7 +172,7 @@ class LineStreamProc:
 
 if __name__ == "__main__":
     lineproc = LineStreamProc();
-    lines = lineproc.fileLines("C:\\Users\\19082\\PythonProject\\population_2019.csv")
+    lines = lineproc.fileLines(sys.argv[1])
     lineproc.getPopulationByDept(lines[1:])
        
 
