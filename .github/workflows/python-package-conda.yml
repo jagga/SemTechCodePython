@@ -31,4 +31,4 @@ jobs:
     - name: Test with unittest
       run: |
         #conda install pytest
-        unittest
+        python -m unittest -y SemTechCodeTest
